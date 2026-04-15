@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+//TODO importa los componentes necesarios de Ionic y FormsModule
 import {
-  IonHeader, IonToolbar, IonTitle, IonContent, IonFooter,
-  IonList, IonItem, IonLabel, IonButton, IonInput,
+  IonHeader, IonToolbar, IonTitle, IonContent,
   ToastController
 } from '@ionic/angular/standalone';
 import { FormsModule } from '@angular/forms';
