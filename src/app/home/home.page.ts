@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-//TODO importa los componentes necesarios de Ionic y FormsModule
 import {
   IonHeader, IonToolbar, IonTitle, IonContent,
   ToastController
@@ -12,6 +11,7 @@ import { Elemento } from '../models/elemento.model';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
+  //TODO añade los componentes de Ionic y FormsModule a imports
   imports: [
     IonHeader, IonToolbar, IonTitle, IonContent, 
     FormsModule
